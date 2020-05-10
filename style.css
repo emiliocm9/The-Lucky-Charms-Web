@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  min-width: 22rem;
+}
+
+body {
+  min-width: 22rem;
+  font-size: 1.4rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* ----------------------------------------Nav Bar------------------------------------------------ */
+nav {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  height: 4rem;
+  border: 1px solid red;
+  align-items: center;
+}
+
+.first_nav {
+  width: 10%;
+}
+
+.second_nav {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.second_nav ul {
+  
+}
