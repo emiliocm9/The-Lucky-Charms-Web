@@ -88,6 +88,8 @@ nav {
 }
 
 /* ffc502 */
+/* DD001B */
+/* 8E8703 */
 /*------------------------------------------------- First Main Container-------------------------- */
 .first_main-container {
   width: 100%;
@@ -120,13 +122,28 @@ nav {
 }
 
 .container-description-buttons button {
+  margin-top: 1rem;
   width: 10rem;
   height: 4rem;
   border: none;
-  background-color: rgba(white, pink, white, 0.2%);
+  background: rgba( 255, 255, 255, 0.5);
+  border: 1px solid red;
   border-radius: 1rem;
 }
 
-.container-description-buttons {
-  background-color: rgba(white, pink, white, 0.2%);
+.container-description-buttons button:hover {
+  background: rgba( 255, 255, 255, 1);
+}
+
+.container-description-buttons button a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Courier Prime', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.container-description-buttons button a:hover {
+  color: red;
 }
