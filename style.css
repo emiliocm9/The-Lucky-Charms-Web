@@ -22,21 +22,111 @@ nav {
   display: flex;
   width: 100%;
   margin: 0;
-  height: 4rem;
-  border: 1px solid red;
+  height: 5.5rem;
   align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+  z-index: 1;
+  position: fixed;
 }
 
 .first_nav {
   width: 10%;
 }
 
+.first_nav img {
+  width: 10rem;
+  margin-top: 2rem;
+}
+
 .second_nav {
-  width: 40%;
+  width: 50%;
   display: flex;
   align-items: center;
 }
 
 .second_nav ul {
-  
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.second_nav ul li {
+  list-style: none;
+  flex: 1;
+  justify-self: center;
+}
+
+.second_nav ul li:hover {
+  /* border-right: 1px solid black;
+  border-left: 1px solid black; */
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.second_nav ul a {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.third_nav-social {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.third_nav-social i {
+  color: white;
+  font-size: 2rem;
+}
+
+/* ffc502 */
+/*------------------------------------------------- First Main Container-------------------------- */
+.first_main-container {
+  width: 100%;
+  background-image: url(img/main_background-image.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.first_container-text {
+  color: white;
+  width: 30%;
+  position: absolute;
+  bottom: 12rem;
+  left: 10rem;
+}
+
+.first_container-text p {
+  font-family: 'Courier Prime', monospace;
+}
+
+.first_container-text h1 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 0.3rem;
+}
+
+.container-description-buttons button {
+  width: 10rem;
+  height: 4rem;
+  border: none;
+  background-color: rgba(white, pink, white, 0.2%);
+  border-radius: 1rem;
+}
+
+.container-description-buttons {
+  background-color: rgba(white, pink, white, 0.2%);
 }
