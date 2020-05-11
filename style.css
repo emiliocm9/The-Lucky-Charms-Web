@@ -147,3 +147,26 @@ nav {
 .container-description-buttons button a:hover {
   color: red;
 }
+
+/*------------------------------------------- Gallery Section ---------------------------------*/
+.gallery_title-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 5.5rem;
+}
+
+.gallery {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.gallery_title-container h1 {
+  margin: 0 auto;
+  color: #8E8703;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
