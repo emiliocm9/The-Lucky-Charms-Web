@@ -93,7 +93,8 @@ nav {
 /*------------------------------------------------- First Main Container-------------------------- */
 .first_main-container {
   width: 100%;
-  background-image: url(img/main_background-image.jpg);
+  background-image: url(img/background_red.jpg);
+ /*  background-color: red; */
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -101,11 +102,55 @@ nav {
   position: relative;
 }
 
+.Ramon_principal {
+  position: absolute;
+  width: 33rem;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  filter: drop-shadow(1px 1px 0 green) 
+          drop-shadow(-1px -1px 0 green);
+  transition:  width 1s ease-in;
+}
+
+.Ramon_principal:hover {
+  width: 40rem;
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 0 blue) 
+          drop-shadow(-1px -1px 0 blue);
+}
+
+.Emilio_principal {
+  position: absolute;
+  width: 30rem;
+  height: auto;
+  right: 40rem;
+  bottom: 0;
+  filter: drop-shadow(1px 1px 0 green) 
+          drop-shadow(-1px -1px 0 green);
+  transition:  width 1s ease-in;
+}
+
+.Emilio_principal:hover {
+  width: 37rem;
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 0 blue) 
+          drop-shadow(-1px -1px 0 blue);
+}
+
+.Diego_principal {
+  position: absolute;
+  width: 20rem;
+  height: auto;
+  left: 5rem;
+  bottom: 0;
+}
+
 .first_container-text {
   color: white;
   width: 30%;
   position: absolute;
-  bottom: 12rem;
+  bottom: 35rem;
   left: 10rem;
 }
 
