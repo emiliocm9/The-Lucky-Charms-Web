@@ -108,16 +108,16 @@ nav {
   height: auto;
   right: 0;
   bottom: 0;
-  filter: drop-shadow(1px 1px 0 green) 
-          drop-shadow(-1px -1px 0 green);
+  filter: drop-shadow(2px 2px 0 white) 
+          drop-shadow(-2px -2px 0 white);
   transition:  width 1s ease-in;
 }
 
 .Ramon_principal:hover {
   width: 40rem;
   cursor: pointer;
-  filter: drop-shadow(1px 1px 0 blue) 
-          drop-shadow(-1px -1px 0 blue);
+  filter: drop-shadow(1px 1px 0 green) 
+          drop-shadow(-1px -1px 0 green);
 }
 
 .Emilio_principal {
@@ -126,16 +126,16 @@ nav {
   height: auto;
   right: 40rem;
   bottom: 0;
-  filter: drop-shadow(1px 1px 0 green) 
-          drop-shadow(-1px -1px 0 green);
+  filter: drop-shadow(2px 2px 0 white) 
+          drop-shadow(-2px -2px 0 white);
   transition:  width 1s ease-in;
 }
 
 .Emilio_principal:hover {
   width: 37rem;
   cursor: pointer;
-  filter: drop-shadow(1px 1px 0 blue) 
-          drop-shadow(-1px -1px 0 blue);
+  filter: drop-shadow(1px 1px 0 purple) 
+          drop-shadow(-1px -1px 0 purple);
 }
 
 .Diego_principal {
@@ -144,6 +144,16 @@ nav {
   height: auto;
   left: 5rem;
   bottom: 0;
+  filter: drop-shadow(2px 2px 0 white) 
+          drop-shadow(-2px -2px 0 white);
+  transition:  width 1s ease-in;
+}
+
+.Diego_principal:hover {
+  width: 27rem;
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 0 orange) 
+          drop-shadow(-1px -1px 0 orange);
 }
 
 .first_container-text {
