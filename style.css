@@ -149,6 +149,17 @@ nav {
   transition:  width 1s ease-in;
 }
 
+.Andre_principal {
+  position: absolute;
+  width: 25rem;
+  height: auto;
+  left: 33rem;
+  bottom: 0;
+  filter: drop-shadow(2px 2px 0 white) 
+          drop-shadow(-2px -2px 0 white);
+  transition:  width 1s ease-in;
+}
+
 .Diego_principal:hover {
   width: 27rem;
   cursor: pointer;
