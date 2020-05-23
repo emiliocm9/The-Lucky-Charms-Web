@@ -160,6 +160,13 @@ nav {
   transition:  width 1s ease-in;
 }
 
+.Andre_principal:hover {
+  width: 32rem;
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 0 red)
+          drop-shadow(-1px -1px 0 red);
+}
+
 .Diego_principal:hover {
   width: 27rem;
   cursor: pointer;
@@ -214,6 +221,36 @@ nav {
   color: red;
 }
 
+/*---------------------------------------------- First Song Section --------------------------------------*/
+.first_song-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_logo-container {
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.main_logo {
+  width: 30rem;
+  margin: 0 auto;
+}
+
+.first_lyrics-container {
+  width: 30rem;
+  text-align: justify;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+}
+
 /*------------------------------------------- Gallery Section ---------------------------------*/
 .gallery_title-container {
   display: flex;
@@ -223,7 +260,7 @@ nav {
 }
 
 .gallery {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 
