@@ -94,11 +94,13 @@ nav {
 .first_main-container {
   width: 100%;
   background-image: url(img/background_red.jpg);
- /*  background-color: red; */
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 70rem;
   display: flex;
+  border-bottom: 10px;
+/*   border-image: linear-gradient(180deg, rgba(196,25,25,1) 0%, rgba(141,141,141,1) 100%); */
+  border-image-outset: linear-gradient(180deg, rgba(196,25,25,1) 0%, rgba(141,141,141,1) 100%);
   position: relative;
 }
 
@@ -226,20 +228,36 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
-  flex-direction: column;
 }
 
 .main_logo-container {
-  width: auto;
+  width: 90%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   margin: 0 auto;
   margin-top: 3rem;
 }
 
-.main_logo {
-  width: 30rem;
+.iframe-container{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; 
+}
+
+.television {
+  position: absolute;
+  width: 100%;
+}
+
+.iframe-container iframe{
+  position: absolute;
+  top: 15%;
+  left: 25%;
   margin: 0 auto;
+  width: 36%;
+  height: 48%;
+  border-radius: 2rem;
 }
 
 .first_lyrics-container {
@@ -248,7 +266,7 @@ nav {
   font-style: italic;
   font-weight: bold;
   font-size: 1.7rem;
-  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 /*------------------------------------------- Gallery Section ---------------------------------*/
