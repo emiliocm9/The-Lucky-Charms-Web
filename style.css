@@ -17,6 +17,8 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* fuente de textos largos font-family: 'Alice', serif; */
+
 /* ----------------------------------------Nav Bar------------------------------------------------ */
 nav {
   display: flex;
@@ -93,7 +95,8 @@ nav {
 /*------------------------------------------------- First Main Container-------------------------- */
 .first_main-container {
   width: 100%;
-  background-image: url(img/background_red.jpg);
+  /* background-image: url(img/background_red.jpg); */
+  background-color: black;
   background-position: center;
   background-size: cover;
   height: 70rem;
@@ -229,6 +232,8 @@ nav {
   display: flex;
   align-items: center;
   background-position: center;
+  background-size: cover;
+  background-image: url(img/vapor2.jpg);
   background-size: cover;
 }
 
