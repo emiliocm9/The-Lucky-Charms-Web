@@ -283,7 +283,8 @@ nav {
 /*------------------------------------------- Gallery Section ---------------------------------*/
 .galeria {
   width: 100%;
-  background-color: #85c555;
+  background-image: url(img/estayaqueda.png);
+  background-size: cover;
 }
 
 .gallery_title-container {
